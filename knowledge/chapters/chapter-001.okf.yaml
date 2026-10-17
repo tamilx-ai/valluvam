@@ -1,0 +1,102 @@
+
+okf_version: "0.1"
+record_type: "tamil.knowledge.chapter"
+
+id: "thirukkural.chapter.001"
+
+identity:
+  collection: "Thirukkural"
+  chapter_number: 1
+  title:
+    tamil: "கடவுள் வாழ்த்து"
+    english: "The Praise of God"
+  author: "திருவள்ளுவர்"
+
+hierarchy:
+  work_id: "thirukkural"
+  division:
+    id: "thirukkural.division.arathuppal"
+    number: 1
+    tamil: "அறத்துப்பால்"
+    transliteration: "Arathuppal"
+    english: "Virtue"
+  parent_id: "thirukkural.division.arathuppal"
+
+content:
+  summary:
+    language: "en"
+    text: >-
+      This chapter opens the Thirukkural by expressing reverence
+      for the divine and exploring the relationship between the
+      divine, knowledge, human conduct, and spiritual well-being.
+      Across its ten couplets, it reflects on the qualities
+      associated with the divine and the significance of devotion,
+      moral discernment, freedom from attachment, and the path
+      towards enduring well-being.
+
+  summary_ta:
+    language: "ta"
+    text: >-
+      திருக்குறளின் தொடக்க அதிகாரமான கடவுள் வாழ்த்து,
+      இறைவனைப் போற்றுவதுடன், இறைவனின் இயல்புகள், அறிவு,
+      அறநெறி, பற்றின்மை மற்றும் வாழ்வின் உயர்ந்த நலன்
+      ஆகியவற்றுக்கிடையேயான தொடர்புகளைப் பத்து குறள்களின்
+      வழியாக எடுத்துரைக்கிறது.
+
+structure:
+  kural_range:
+    start: 1
+    end: 10
+    count: 10
+
+  kurals:
+    - "thirukkural:1"
+    - "thirukkural:2"
+    - "thirukkural:3"
+    - "thirukkural:4"
+    - "thirukkural:5"
+    - "thirukkural:6"
+    - "thirukkural:7"
+    - "thirukkural:8"
+    - "thirukkural:9"
+    - "thirukkural:10"
+
+knowledge:
+  relationships:
+    - subject: "thirukkural"
+      predicate: "has_division"
+      object: "thirukkural.division.arathuppal"
+
+    - subject: "thirukkural.division.arathuppal"
+      predicate: "contains"
+      object: "thirukkural.chapter.001"
+
+    - subject: "thirukkural.chapter.001"
+      predicate: "contains_kural_range"
+      object: "thirukkural:1..10"
+
+search:
+  tamil:
+    - "அறத்துப்பால்"
+    - "கடவுள் வாழ்த்து"
+    - "அகர முதல"
+
+  english:
+    - "Virtue"
+    - "The Praise of God"
+
+  tanglish:
+    - "Arathuppal"
+    - "Kadavul Vaazhthu"
+
+provenance:
+  source:
+    title: "Thirukkural"
+    author: "திருவள்ளுவர்"
+    verification_status: "verify_against_authoritative_edition"
+
+governance:
+  content_status: "draft"
+  schema_version: "0.1"
+  reviewed: false
+  review_required: true
