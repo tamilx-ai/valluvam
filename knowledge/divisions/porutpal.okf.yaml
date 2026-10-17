@@ -1,0 +1,144 @@
+
+okf_version: "0.1"
+record_type: "tamil.knowledge.division"
+
+id: "thirukkural.division.porutpal"
+
+identity:
+  collection: "Thirukkural"
+  division_number: 2
+  title:
+    tamil: "பொருட்பால்"
+    transliteration: "Porutpal"
+    english: "Wealth and Statecraft"
+  author: "திருவள்ளுவர்"
+
+hierarchy:
+  work_id: "thirukkural"
+  sequence: 2
+
+  chapter_range:
+    start: 39
+    end: 108
+    count: 70
+
+  kural_range:
+    start: 381
+    end: 1080
+    count: 700
+
+content:
+  summary:
+    language: "en"
+    text: >-
+      Porutpal explores the principles governing public life,
+      leadership, administration, justice, economic prosperity,
+      social relationships, and responsible action. Across its
+      chapters, it examines the qualities of effective rulers
+      and advisers, the responsibilities of institutions,
+      the importance of wise decision-making, and the conduct
+      required for individuals and communities to flourish.
+      Wealth and power are considered in the context of
+      ethical leadership, social order, and collective well-being.
+
+  summary_ta:
+    language: "ta"
+    text: >-
+      பொருட்பால் ஆட்சி, தலைமைத்துவம், நிர்வாகம், நீதி,
+      பொருளாதாரம், நட்பு, சமூக உறவுகள் மற்றும் பொறுப்பான
+      செயல்பாடு ஆகியவற்றை எடுத்துரைக்கிறது. நல்லாட்சி,
+      அறிவார்ந்த முடிவெடுத்தல், அரசியல் மற்றும் சமூக
+      ஒழுங்கு, பொருள் ஈட்டுதல் மற்றும் அதன் பயன்பாடு
+      ஆகியவற்றின் வழியாக தனிமனித மற்றும் சமூக
+      நலனுக்கான வழிமுறைகளை விளக்குகிறது.
+
+themes:
+  - id: "concept.leadership"
+    label_ta: "தலைமைத்துவம்"
+    label_en: "Leadership"
+
+  - id: "concept.governance"
+    label_ta: "நல்லாட்சி"
+    label_en: "Governance"
+
+  - id: "concept.justice"
+    label_ta: "நீதி"
+    label_en: "Justice"
+
+  - id: "concept.wealth"
+    label_ta: "பொருள்"
+    label_en: "Wealth"
+
+  - id: "concept.diplomacy"
+    label_ta: "அரசியல் உறவுகள்"
+    label_en: "Diplomacy and political relations"
+
+  - id: "concept.friendship"
+    label_ta: "நட்பு"
+    label_en: "Friendship"
+
+  - id: "concept.social_responsibility"
+    label_ta: "சமூகப் பொறுப்பு"
+    label_en: "Social responsibility"
+
+  - id: "concept.wisdom"
+    label_ta: "அறிவு"
+    label_en: "Wisdom"
+
+knowledge:
+  relationships:
+    - subject: "thirukkural"
+      predicate: "has_division"
+      object: "thirukkural.division.porutpal"
+
+    - subject: "thirukkural.division.porutpal"
+      predicate: "covers_chapter_range"
+      object: "thirukkural.chapter.039..108"
+
+    - subject: "thirukkural.division.porutpal"
+      predicate: "covers_kural_range"
+      object: "thirukkural:381..1080"
+
+search:
+  tamil:
+    - "பொருட்பால்"
+    - "அரசியல்"
+    - "நல்லாட்சி"
+    - "தலைமைத்துவம்"
+    - "நீதி"
+    - "பொருளாதாரம்"
+    - "நட்பு"
+    - "பொது நிர்வாகம்"
+
+  english:
+    - "Porutpal"
+    - "wealth and statecraft"
+    - "leadership"
+    - "governance"
+    - "justice"
+    - "economics"
+    - "friendship"
+    - "public administration"
+
+  tanglish:
+    - "porutpal"
+    - "arasiyal"
+    - "nallaatchi"
+    - "thalaimaithuvam"
+    - "neethi"
+    - "porulaathaaram"
+    - "natpu"
+    - "amaichu"
+
+provenance:
+  source:
+    title: "Thirukkural"
+    author: "திருவள்ளுவர்"
+    verification_status: "verify_against_authoritative_edition"
+
+governance:
+  content_status: "draft"
+  schema_version: "0.1"
+  reviewed: false
+  review_required: true
+  ai_generated_content_must_be_labelled: true

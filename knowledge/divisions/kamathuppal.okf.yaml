@@ -1,0 +1,142 @@
+
+okf_version: "0.1"
+record_type: "tamil.knowledge.division"
+
+id: "thirukkural.division.kamathuppal"
+
+identity:
+  collection: "Thirukkural"
+  division_number: 3
+  title:
+    tamil: "காமத்துப்பால்"
+    transliteration: "Kamathuppal"
+    english: "Love"
+  author: "திருவள்ளுவர்"
+
+hierarchy:
+  work_id: "thirukkural"
+  sequence: 3
+
+  chapter_range:
+    start: 109
+    end: 133
+    count: 25
+
+  kural_range:
+    start: 1081
+    end: 1330
+    count: 250
+
+content:
+  summary:
+    language: "en"
+    text: >-
+      Kamathuppal explores the emotional and relational dimensions
+      of love between lovers. Through poetic expressions of
+      attraction, affection, emotional intimacy, longing,
+      separation, anticipation, and reunion, it portrays the
+      inner experiences of love and the changing emotions that
+      accompany relationships. The division presents love through
+      the perspectives and feelings of those involved, emphasizing
+      emotional depth, mutual attachment, and the subtleties of
+      human experience.
+
+  summary_ta:
+    language: "ta"
+    text: >-
+      காமத்துப்பால் காதலர்களுக்கிடையேயான அன்பு, காதல்,
+      உணர்வுப் பிணைப்பு மற்றும் உள்ளார்ந்த அனுபவங்களை
+      எடுத்துரைக்கிறது. காதலின் தோற்றம், ஈர்ப்பு, கூடல்,
+      பிரிவு, பிரிவாற்றாமை, ஏக்கம் மற்றும் மீண்டும்
+      கூடுவதற்கான எதிர்பார்ப்பு போன்ற உணர்வுகளைப்
+      பாடல்களின் வழியாக வெளிப்படுத்துகிறது. காதலர்களின்
+      மனநிலைகள் மற்றும் உறவுகளில் ஏற்படும் உணர்வு
+      மாற்றங்களை நுட்பமாகச் சித்தரிக்கிறது.
+
+themes:
+  - id: "concept.love"
+    label_ta: "காதல்"
+    label_en: "Love"
+
+  - id: "concept.affection"
+    label_ta: "அன்பு"
+    label_en: "Affection"
+
+  - id: "concept.attraction"
+    label_ta: "ஈர்ப்பு"
+    label_en: "Attraction"
+
+  - id: "concept.intimacy"
+    label_ta: "நெருக்கம்"
+    label_en: "Intimacy"
+
+  - id: "concept.separation"
+    label_ta: "பிரிவு"
+    label_en: "Separation"
+
+  - id: "concept.longing"
+    label_ta: "ஏக்கம்"
+    label_en: "Longing"
+
+  - id: "concept.reunion"
+    label_ta: "கூடல்"
+    label_en: "Reunion"
+
+  - id: "concept.emotional_experience"
+    label_ta: "உணர்வு அனுபவம்"
+    label_en: "Emotional experience"
+
+knowledge:
+  relationships:
+    - subject: "thirukkural"
+      predicate: "has_division"
+      object: "thirukkural.division.kamathuppal"
+
+    - subject: "thirukkural.division.kamathuppal"
+      predicate: "covers_chapter_range"
+      object: "thirukkural.chapter.109..133"
+
+    - subject: "thirukkural.division.kamathuppal"
+      predicate: "covers_kural_range"
+      object: "thirukkural:1081..1330"
+
+search:
+  tamil:
+    - "காமத்துப்பால்"
+    - "காதல்"
+    - "அன்பு"
+    - "கூடல்"
+    - "பிரிவு"
+    - "பிரிவாற்றாமை"
+    - "ஏக்கம்"
+
+  english:
+    - "Kamathuppal"
+    - "love"
+    - "affection"
+    - "intimacy"
+    - "separation"
+    - "longing"
+    - "reunion"
+
+  tanglish:
+    - "kamathuppal"
+    - "kaadhal"
+    - "anbu"
+    - "koodal"
+    - "pirivu"
+    - "pirivaatraamai"
+    - "yekkam"
+
+provenance:
+  source:
+    title: "Thirukkural"
+    author: "திருவள்ளுவர்"
+    verification_status: "verify_against_authoritative_edition"
+
+governance:
+  content_status: "draft"
+  schema_version: "0.1"
+  reviewed: false
+  review_required: true
+  ai_generated_content_must_be_labelled: true
