@@ -1,0 +1,112 @@
+
+okf_version: "0.1"
+record_type: "tamil.knowledge.kural"
+
+id: "tamilx.valluvam.kural.0001"
+canonical_id: "thirukkural:1"
+
+identity:
+  collection: "Thirukkural"
+  number: 1
+  chapter:
+    id: "thirukkural.chapter.001"
+    number: 1
+    tamil: "கடவுள் வாழ்த்து"
+    english: "The Praise of God"
+  author: "திருவள்ளுவர்"
+
+content:
+  original:
+    language: "ta"
+    script: "Tamil"
+    lines:
+      - "அகர முதல எழுத்தெல்லாம், ஆதி"
+      - "பகவன் முதற்றே உலகு."
+    full_text: "அகர முதல எழுத்தெல்லாம், ஆதி பகவன் முதற்றே உலகு."
+
+  transliteration:
+    scheme: "informal_tanglish"
+    text: "Agara mudhala ezhuththellaam aadhi bhagavan mudhatre ulagu."
+
+  translations:
+    - language: "en"
+      type: "meaning"
+      text: "As the letter A is first among all letters, so is the Eternal God first in the world."
+      attribution: "Valluvam working translation"
+      status: "draft"
+
+  explanations:
+    - language: "en"
+      type: "plain_language"
+      text: "Just as the letter A is the starting point of written language, the divine or ultimate first principle is presented as the beginning of the world."
+      status: "draft"
+
+    - language: "ta"
+      type: "plain_language"
+      text: "எழுத்துகளுக்கு அகரம் முதலாக இருப்பதுபோல், உலகிற்கு ஆதிபகவன் முதன்மையானவராகக் கூறப்படுகிறார்."
+      status: "draft"
+
+knowledge:
+  concepts:
+    - id: "concept.first_principle"
+      label: "First principle"
+    - id: "concept.origins"
+      label: "Origins"
+    - id: "concept.primacy"
+      label: "Primacy"
+    - id: "concept.language_and_knowledge"
+      label: "Language and knowledge"
+
+  entities:
+    - id: "entity.akaram"
+      label_ta: "அகரம்"
+      label_en: "Letter A"
+      entity_type: "symbol"
+
+    - id: "entity.aadhi_bhagavan"
+      label_ta: "ஆதிபகவன்"
+      label_en: "The Primordial Divine"
+      entity_type: "philosophical_concept"
+      interpretation_note: "Interpretations may vary across commentarial traditions."
+
+  relations:
+    - subject: "entity.akaram"
+      predicate: "represents_primacy_of"
+      object: "concept.language_and_knowledge"
+
+    - subject: "entity.aadhi_bhagavan"
+      predicate: "is_presented_as_first_principle_of"
+      object: "concept.origins"
+
+search:
+  tamil:
+    - "அகர"
+    - "ஆதிபகவன்"
+    - "கடவுள் வாழ்த்து"
+  english:
+    - "first principle"
+    - "origins"
+    - "letter A"
+    - "beginning of the world"
+  tanglish:
+    - "agara mudhala"
+    - "aadhi bhagavan"
+    - "ulagu"
+
+provenance:
+  original_text:
+    source: "Thirukkural, Kural 1"
+    verification_status: "verify_against_authoritative_edition"
+  translation:
+    source_type: "project_translation"
+    reviewed: false
+  explanation:
+    source_type: "project_authored"
+    reviewed: false
+
+governance:
+  content_status: "draft"
+  schema_version: "0.1"
+  created_by: "TamilX Valluvam"
+  review_required: true
+  ai_generated_content_must_be_labelled: true
