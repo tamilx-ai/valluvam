@@ -1,0 +1,106 @@
+
+okf_version: "0.1"
+record_type: "tamil.knowledge.division"
+
+id: "thirukkural.division.arathuppal"
+
+identity:
+  collection: "Thirukkural"
+  division_number: 1
+  title:
+    tamil: "அறத்துப்பால்"
+    transliteration: "Arathuppal"
+    english: "Virtue"
+  author: "திருவள்ளுவர்"
+
+hierarchy:
+  work_id: "thirukkural"
+  sequence: 1
+  chapter_range:
+    start: 1
+    end: 38
+    count: 38
+  kural_range:
+    start: 1
+    end: 380
+    count: 380
+
+content:
+  summary:
+    language: "en"
+    text: >-
+      Arathuppal explores the principles of virtuous living,
+      moral responsibility, personal discipline, compassion,
+      and ethical relationships. It presents virtue as a
+      foundation for individual conduct and harmonious life,
+      encompassing both personal integrity and responsibilities
+      towards others.
+
+  summary_ta:
+    language: "ta"
+    text: >-
+      அறத்துப்பால் மனித வாழ்வின் அறநெறிகள், ஒழுக்கம்,
+      அன்பு, அருள், கடமை மற்றும் பிறருடன் இணக்கமாக
+      வாழ்வதற்கான பண்புகளை எடுத்துரைக்கிறது.
+      தனிமனித வாழ்விலும் சமூக உறவுகளிலும் அறத்தின்
+      முக்கியத்துவத்தை விளக்குகிறது.
+
+themes:
+  - id: "concept.virtue"
+    label_ta: "அறம்"
+    label_en: "Virtue"
+
+  - id: "concept.moral_conduct"
+    label_ta: "ஒழுக்கம்"
+    label_en: "Moral conduct"
+
+  - id: "concept.compassion"
+    label_ta: "அருள்"
+    label_en: "Compassion"
+
+  - id: "concept.love"
+    label_ta: "அன்பு"
+    label_en: "Love"
+
+  - id: "concept.self_discipline"
+    label_ta: "அடக்கம்"
+    label_en: "Self-discipline"
+
+knowledge:
+  relationships:
+    - subject: "thirukkural"
+      predicate: "has_division"
+      object: "thirukkural.division.arathuppal"
+
+search:
+  tamil:
+    - "அறத்துப்பால்"
+    - "அறம்"
+    - "அறநெறி"
+    - "ஒழுக்கம்"
+    - "அன்பு"
+
+  english:
+    - "virtue"
+    - "ethical living"
+    - "moral conduct"
+    - "compassion"
+
+  tanglish:
+    - "arathuppal"
+    - "aram"
+    - "araneri"
+    - "ozhukkam"
+    - "anbu"
+
+provenance:
+  source:
+    title: "Thirukkural"
+    author: "திருவள்ளுவர்"
+    verification_status: "verify_against_authoritative_edition"
+
+governance:
+  content_status: "draft"
+  schema_version: "0.1"
+  reviewed: false
+  review_required: true
